@@ -23,7 +23,7 @@ export default function ReviewInfo() {
 }
 
 const TitleWrapper = styled(Title)`
-    & {
+    &&& {
         display: flex;
         align-items: center;
         flex-direction: row;
@@ -31,7 +31,7 @@ const TitleWrapper = styled(Title)`
         padding-bottom: 0.9rem;
         border-bottom: 1px solid ${Colors.line2};
     }
-    & > span {
+    &&& > span {
         font-size: 0.9rem;
         font-weight: 600;
         color: ${Colors.primary};
